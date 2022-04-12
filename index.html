@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Daemyeong Kang" />
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+	<title>WEB222 Final Project</title>
+	<link rel="stylesheet" href="./style.css">
+	<!-- bootstrap library -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/sketchy/bootstrap.min.css" integrity="sha384-RxqHG2ilm4r6aFRpGmBbGTjsqwfqHOKy1ArsMhHusnRO47jcGqpIQqlQK/kmGy9R" crossorigin="anonymous"></head>
+<body>
+	<header><h1>Daemyeong Kang's Website</h1></header>
+	<!-- navigation section -->
+	<nav>
+	<div class="container-fluid">
+		<div class="row
+					row-cols-1
+					row-cols-md-2
+					row-cols-lg-6">
+			<div class="d-none d-lg-block left"></div>
+			<button class="col" id ="aboutBtn">About me</button>
+			<button class="col" id ="resumeBtn">My CV</button>
+			<button class="col" id ="educationBtn">Education History</button>
+			<button class="col" id ="contactMeBtn">Contact Me</button>
+			<div class="d-none d-lg-block right"></div>
+		</div>
+	</div>
+	</nav>
+<!-- main page section -->
+<div class = "container-fluid">
+	<div class="row">
+		<div class="col-lg-2 d-none d-lg-block left"></div>
+		<div class="col-md-12 col-lg-8">
+			<!-- intro section -->
+			<div class = "row">
+				<div class = "col-lg-6 col-md-6">
+					<h2 >Introduction</h2>
+					<p><span class = "boldSentence">8-year Experienced Software Engineer in S.Korea</span></p>
+				</div>
+				<div class="col-lg-6 col-md-6 gx-0">
+					<img src="./me.jpg" class="img-fluid" alt="myself1"> </img>
+				</div>
+			</div>
+			<hr>
+		</div> 
+		<div class="col-lg-2 d-none d-lg-block right"></div>
+	</div>
+	<!-- about me section -->
+	<div class="row">
+		<div class="col-lg-2 d-none d-lg-block left"></div>
+		<div class="col-md-12 col-lg-8">
+			<div class = "row">
+				<div class = "col-lg-6 col-md-6">
+					<h2 id="about">About Me </h2>
+					<p>My name is Daemyeong Kang. I'm from S.Korea, and moved to Canada last year. 
+						I used to work as a SW Engineer for 8 years in S.Korea.
+					</p>
+					<hr>
+					<h2>Academic Honesty</h2>
+					<p>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.</p>
+					<span class="boldSentence">Date: </span><date>2022/04/12</date>
+					<hr>
+				</div>
+			<div class="col-lg-6 col-md-6 gx-0">
+				<h2>Basic Information</h2>
+				<table>
+					<tr>
+						<th class = "attribute">Name: </th>
+						<th class = "value">Daemyeong Kang</th>
+					</tr>
+					<tr>
+						<th class = "attribute">Student ID: </th>
+						<th class = "value">119140218</th>
+					</tr>
+					<tr>
+						<th class = "attribute">Course Name: </th>
+						<th class = "value">WEB222</th>
+					</tr>
+					<tr>
+						<th class = "attribute">Section: </th>
+						<th class = "value">NBB</th>
+					</tr>
+					<tr>
+						<th class = "attribute">Instructor Name: </th>
+						<th class = "value">Noman Atique</th>
+					</tr>
+				  </table>
+				  <hr>
+			</div>
+		</div>
+		</div> 
+		<div class="col-lg-2 d-none d-lg-block right"></div>
+	</div>
+	<!-- resume section -->
+	<div class="row">
+		<div class="col-lg-2 d-none d-lg-block left"></div>
+		<div class="col-md-12 col-lg-8">
+			<div class = "row">
+				<div class = "col-lg-6 col-md-6">
+					<h2 id="resume">My CV</h2>
+					<p> Click the button on the right to download</p>
+				</div>
+				<div class="col-lg-6 col-md-6 gx-0">
+					<a href="./CV-dmkang.pdf" download="My CV">
+						<button class="col-12" id = CVDownloadBtn alt="CV Download button"><i class="fa fa-download"></i>Download</button>
+					</a>
+				</div>
+			</div>
+			<hr>
+		</div> 
+		<div class="col-lg-2 d-none d-lg-block right"></div>
+	</div>
+	<!-- education section -->
+	<div class="row">
+		<div class="col-lg-2 d-none d-lg-block left"></div>
+		<div class="col-md-12 col-lg-8">
+			<h2 id="education">Education</h2>
+			<div class="row">
+				<div class="col-4 school">
+					<h3>College Diploma</h3>
+					<p>2021-2022 (expected)</p>
+				</div>
+				<div class="col-8 school_description">
+					<h3>Seneca College</h3>
+					<p>Computer Programming</p>
+				</div>
+				<div class="col-4 school">
+					<h3>Master's Degree</h3>
+					<p>2013-2015</p>
+				</div>
+				<div class="col-8 school_description">
+					<h3>Korea University</h3>
+					<p>Computer Science & Engineering</p>
+				</div>
+				<hr>
+			  </div>
+			  <hr>
+
+		</div> 
+		<div class="col-lg-2 d-none d-lg-block right"></div>
+	</div> 
+	<!-- contact me form section -->
+	<div class="row">
+		<div class="col-lg-2 d-none d-lg-block left"></div>
+		<div class="col-md-12 col-lg-8">
+			<h2 id ="contact">Contact Me</h2>
+			<form action="https://httpbin.org/post" method="post">
+
+				<label for="name">Name:</label><br>
+				<input type="text" id="name" name="Name" class = "form-control" placeholder="Your Name" required><br>
+
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="Email" class = "form-control" placeholder="YourEmail@email.com" required><br>
+
+				<label for="address">Address:</label><br>
+				<input type="text" id="address" name="Address" class = "form-control" placeholder="1234 56 Ave SW" required><br>
+
+				<label for="city">City:</label><br>
+				<input list="cities" id="city" name="City" class = "form-control" placeholder = "Calgary" required><br>
+				<datalist id="cities">
+					<option value="Toronto">
+					<option value="Vancouver">
+					<option value="Montreal">
+					<option value="Ottawa">
+					<option value="Calgary">
+				  </datalist>
+
+				<label for="postalCode">Postal Code:</label><br>
+				<input type="text" pattern="[A-Za-z][0-9][A-Za-z](\s?)[0-9][A-Za-z][0-9]" id="postalCode" name="postalCode" class = "form-control" placeholder="Ex: V5X2H6" required><br>
+
+				<p id="selSentence">Select one of the three buttons below:</p>
+				<input type="radio" id="question" name="radioSel" value="question">
+				<label for="question">Question</label><br>
+
+				<input type="radio" id="comment" name="radioSel" value="comment">
+				<label for="comment">Comment</label><br>
+
+				<input type="radio" id="donation" name="radioSel" value="donation">
+				<label for="donation">Donation</label><br>
+
+				<label for="DonationRate" id="DonationRateLabel"></label><br>
+				
+				<label id = "QuestionOrCommentTextBox">Leave comments if you have any questions</label><br>
+				<textarea id="textarea" cols="100" rows = "8" placeholder="Type Here" class = "form-control"></textarea><br>
+
+				<label for="date">Date Setting</label><br>
+				<input type ="date" id="date" name="date" min="2022-04-12"><br><br>
+				
+				<input type="submit" value="Submit"><br>
+				<hr>
+			  </form> 
+		</div> 
+		<div class="col-lg-2 d-none d-lg-block right"></div>
+	</div> 
+</div>
+</body>
+<script type = "text/javascript" src="./app.js"></script>
+
+</html> 

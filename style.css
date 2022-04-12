@@ -1,0 +1,97 @@
+html {
+	width: 100%;
+	margin-left: 2.5%;
+	margin-right:2.5%;
+}
+
+/* header decoration */
+header{
+	background-color: #dc143c;
+	color: white;
+	background-image: linear-gradient(#7e2222, #e69494);
+	padding: 2rem;
+	margin: 0px;
+	text-align: center;
+}
+
+/* button decoration */
+.row button{
+	background-image: linear-gradient(#7e2222, #e69494);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	height: 4rem;
+	margin-left: 0px;
+	padding: 0px;
+	display:inline-block;
+}
+.row button:hover {
+	background-image: linear-gradient(white, #ffffff);
+}
+.row button:active {
+	background-image: linear-gradient(rgb(255, 255, 255), #ffffff);
+}
+#resumeDownloadBtn{
+	height:100%;
+}
+
+/* main page color decoration */
+.col-md-12{
+	background-image: linear-gradient(#ffffff, #ffffff);
+}
+
+/* my image position adjustment */
+img{
+	position: relative;
+	background-size: cover;
+}
+
+/* empty side columns' color decoration for laptop or desktop view */
+.left{
+	background-image: linear-gradient(to right,#ffffff, #ffffff);
+
+}
+.right{
+	background-image: linear-gradient(to right,#ffffff, #ffffff);
+}
+
+
+/*Basic Info table attributes and values */
+.attribute{
+	width: 80%;
+}
+.value{
+	font-style: italic;
+}
+
+
+.boldSentence{
+	font-weight:bold;
+}
+
+
+  
+/* education section elements modification */
+.school {
+background-image: linear-gradient(#7e2222, #e69494);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 0px;
+
+text-align: center;
+
+}
+.school_description{
+background-color: white;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 0px;
+text-align: center;
+}
+
+
+#selectionSentence{
+	margin-bottom: 0px;
+}
+
+/* change size of my social media icon size */
+.media{
+	font-size: 2rem;
+}
+
